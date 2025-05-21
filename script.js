@@ -1,7 +1,7 @@
-fetch('https://YOUR_PROJECT.supabase.co/rest/v1/v_resell_summary', {
+fetch('https://whggxrtzztmcbnjzfrem.supabase.co/rest/v1/v_resell_summary', {
   headers: {
-    apikey: 'YOUR_API_KEY',
-    Authorization: 'Bearer YOUR_API_KEY'
+    apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoZ2d4cnR6enRtY2JuanpmcmVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3Mzc3ODIsImV4cCI6MjA2MzMxMzc4Mn0.vYx2KVKOybIDVO3hUNHjC_ADMihCfwo6P5fqNNgFDQ4',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndoZ2d4cnR6enRtY2JuanpmcmVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc3Mzc3ODIsImV4cCI6MjA2MzMxMzc4Mn0.vYx2KVKOybIDVO3hUNHjC_ADMihCfwo6P5fqNNgFDQ4'
   }
 })
 .then(res => res.json())
